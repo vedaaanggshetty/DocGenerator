@@ -48,6 +48,4 @@ npm run test
 ```
 
 
-=======
-# DocGenerator
->>>>>>> 27acc031493595ea8e822611fb1de62866eb4112
+
