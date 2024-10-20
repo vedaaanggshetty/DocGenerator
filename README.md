@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 </a>
 	<h2 align="center">DocGen</h2>
 	<h4 align="center"> An easy to use one stop solution for generating handwritten documents without actually having to write one. Doc Writer is a savior for all those, who need to complete Handwritten work, without actually having to write one. Be it your assignments, home work or any other tasks, use it for all. <h4>
