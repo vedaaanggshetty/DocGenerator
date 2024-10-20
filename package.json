@@ -1,0 +1,49 @@
+{
+  "private": true,
+  "name": "docgen",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "preact build",
+    "serve": "sirv build --cors --single",
+    "dev": "preact watch",
+    "lint": "eslint src",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "preact",
+    "ignorePatterns": [
+      "build/"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-preact-pure": "^4.1.0",
+    "eslint": "^9.13.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-preset-preact": "^4.1.1",
+    "preact-cli": "^3.5.1",
+    "sirv-cli": "^3.0.0"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.25.8",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "bootstrap": "^5.3.3",
+    "dom-to-image": "^2.6.0",
+    "eslint-plugin-compat": "^6.0.1",
+    "preact": "^10.24.3",
+    "preact-render-to-string": "^6.5.11",
+    "preact-router": "^4.1.2",
+    "reactstrap": "^9.2.3"
+  },
+  "jest": {
+    "preset": "jest-preset-preact",
+    "setupFiles": [
+      "<rootDir>/tests/__mocks__/browserMocks.js",
+      "<rootDir>/tests/__mocks__/setupTests.js"
+    ]
+  }
+}
